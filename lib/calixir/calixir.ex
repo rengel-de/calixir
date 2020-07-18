@@ -90,9 +90,8 @@ defmodule Calixir do
 
   @doc """
   Returns the moment corresponding to the Unix epoch.
+  = midnight Universal Time on January 1, 1970 (Gregorian)
   DR4 19 (1.9), unix-epoch
-
-  {:gregorian, {1970, 1, 1}}, midnight Universal Time on January 1, 1970 (Gregorian)
   """
   def unix_epoch, do: 719_163
 
@@ -4654,7 +4653,7 @@ defmodule Calixir do
   end
 
   @doc """
-  Fixed date of Arithmetic French Revolutionary `fixed` date`.
+  Fixed date of Arithmetic French Revolutionary `fixed` date.
   DR4 285 (17.9), fixed-from-arithmetic-french
   """
   def fixed_from_arithmetic_french({year, month, day}) do
