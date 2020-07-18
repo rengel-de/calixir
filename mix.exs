@@ -38,8 +38,8 @@ defmodule Calixir.MixProject do
     [
       name: "calixir",
       # These are the default files included in the package
-      files: ~w(.formatter.exs mix.exs README.md COPYRIGHT* lib test
-                 .gitignore assets),
+      # files: ~w(.formatter.exs mix.exs README.md COPYRIGHT* lib test
+      #            .gitignore assets),
       licenses: ["Apache-2.0"],
       links: %{"GitHub" => "https://github.com/rengel-de/calixir"}
     ]
