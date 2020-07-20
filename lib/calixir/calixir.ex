@@ -6747,7 +6747,7 @@ defmodule Calixir do
   end
 
   def seconds_from_clock({h, m, s} = _clock) do
-    h * 60 + m * 60 + s
+    (h * 60 + m) * 60 + s
   end
 
   # === Time-to-fraction conversions
