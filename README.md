@@ -2,13 +2,13 @@
 
 ## About
   
-`Calixir` is a port of the Lisp software `calendrica-4.0.cl` 
-calendar software of the 4th edition of the book
+`Calixir` is a port of the Lisp calendar software `calendrica-4.0.cl` 
+of the 4th edition of the book
 
 
 [Calendrical Calculations - The Ultimate Edition](https://www.cs.tau.ac.il/~nachum/calendar-book/fourth-edition/)  
 by Edward M. Reingold and Nachum Dershowitz  
-Cambridge Unviversity Press, 2018
+Cambridge University Press, 2018
 
 
 to Elixir. In the software, this book is referenced as **DR4**.
