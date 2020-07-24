@@ -77,7 +77,7 @@ equation numbers in DR4, so that you can easily go to the source.
 
 If you want to 'modularize' this package, I recommend to take this package for a base and 
 to create thin wrappers for the calendars or aspects of your interest. I took this approach 
-for another package called `CalixirCalendars` (soon to be published), that factors out the various 
+for the companion package called [`Calendars`](https://hex.pm/packages/calendars), that factors out the various 
 monotonous (i.e. `Gregorian`) and cyclical (i.e. `Day_of_week`, `Olympiad`) calendars contained in 
 `Calixir`.
 
