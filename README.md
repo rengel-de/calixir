@@ -87,6 +87,16 @@ monotonous (i.e. `Gregorian`) and cyclical (i.e. `Day_of_week`, `Olympiad`) cale
 described in file `COPYRIGHT_DERSHOWITZ_REINGOLD`. This copyright is part of the Common Lisp 
 source file. 
 
+This library is made public under the following conditions:
+
+- The code can be used for personal use.
+- The code can be used for demonstrations purposes.
+- Non-profit reuse with attribution is fine.
+- Commercial use of the algorithms should be licensed and are not allowed from this library.
+
+The permissions above are granted **as long as attribution is given to the authors of the 
+original algorithms, Nachum Dershowitz and Edward M. Reingold**.
+
 The Calixir source code is licensed under the Apache License, Version 2.0,
 the same license that is used by Elixir. You may obtain a copy of this License at 
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
