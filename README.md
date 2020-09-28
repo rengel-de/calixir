@@ -115,3 +115,6 @@ because they are needed for the tests.
 Prof. Reingold maintains a website, [CALENDARISTS.COM](https://www.cs.tau.ac.il/~nachum/calendar-book/index.shtml), 
 where you can get information about previous editions of the book and other 
 calendar-related publications.
+
+## Changelog
+- 0.1.6 fixed function `last_day_of_grgorian_month`
