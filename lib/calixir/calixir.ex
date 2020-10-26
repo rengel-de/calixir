@@ -793,9 +793,10 @@ defmodule Calixir do
 
   def last_day_of_gregorian_month(year, month) do
     date_1 = {year, month, 1}
-    year_2 = if month == 12, do: year + 1, else: year
-    month_2 = mod(month + 1, 12)
-    date_2 = {year_2, month_2, 1}
+    date_2 =
+      if month == 12,
+        do: {year + 1, 1, 1},
+        else: {year, month + 1, 1}
     gregorian_date_difference(date_1, date_2)
   end
 

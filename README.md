@@ -117,4 +117,4 @@ where you can get information about previous editions of the book and other
 calendar-related publications.
 
 ## Changelog
-- 0.1.6 fixed function `last_day_of_grgorian_month`
+- 0.1.7 fixed function `last_day_of_gregorian_month`
